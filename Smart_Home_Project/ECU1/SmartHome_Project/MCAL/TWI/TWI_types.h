@@ -1,0 +1,40 @@
+/*
+ * TWI_types.h
+ *
+ *  Created on: Mar 8, 2023
+ *      Author: LENOVO
+ */
+
+#ifndef TWI_TWI_TYPES_H_
+#define TWI_TWI_TYPES_H_
+
+typedef enum{
+	TWI_1,
+	TWI_4,
+	TWI_16,
+	TWI_64
+
+}TWI_PRESCALLER_VALUE;
+
+
+typedef enum{
+	TWI_STATUS_START = 0x08,
+	TWI_STATUS_SLA_ACK = 0x18,
+	TWI_STATUS_DATA_SENT_ACK= 0x28,
+	TWI_STATUS_DATA_NACK = 0x30,
+	TWI_STATUS_REP_START = 0x10,
+	TWI_STATUS_SLA_ACK_R = 0x40,
+
+
+}TWI_STATUS;
+
+
+//#define TWI_STATUS_DATA_SENT_ACK 0x28
+
+typedef enum{
+	TWI_SCL_100KHZ = 36,
+	TWI_SCL_400KHZ = 12
+
+}TWI_SCL_FREQUANCY;
+
+#endif /* TWI_TWI_TYPES_H_ */

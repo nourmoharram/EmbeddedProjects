@@ -1,0 +1,10 @@
+CONFIG/OS_LCONFIG.o CONFIG/OS_LCONFIG.o: ../CONFIG/OS_LCONFIG.c \
+  D:\NTI_Scholar_ship\FreeRTOS\LIB/STD_TYPES.h \
+  D:\NTI_Scholar_ship\FreeRTOS\MCAL/TIMER/TIMER_Types.h \
+  ../CONFIG/OS_CONFIG.h
+
+D:\NTI_Scholar_ship\FreeRTOS\LIB/STD_TYPES.h:
+
+D:\NTI_Scholar_ship\FreeRTOS\MCAL/TIMER/TIMER_Types.h:
+
+../CONFIG/OS_CONFIG.h:
